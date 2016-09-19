@@ -28,7 +28,7 @@ angular.module('MyApp', ['ngResource', 'ngMessages', 'ngAnimate', 'toastr', 'ui.
      * App routes
      */
     $stateProvider
-      .state('home', {
+      .state('app', {
         url: '/',
         controller: 'HomeCtrl',
         templateUrl: 'partials/home.html'
